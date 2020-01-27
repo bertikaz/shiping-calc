@@ -19,11 +19,9 @@ const mutations = {
 
 const actions = {
     toggleLoading: ({commit}, payload = false) => {
-        console.log('toggle');
         commit(TOGGLE_LOADING, payload);
     },
     showPreLoader: ({commit}, payload = false) => {
-        console.log('setloading');
         commit(SET_LOADING, payload)
     }
 };
